@@ -1,7 +1,7 @@
 import { calculaNovoSaldo } from './index';
 
 describe('Quando eu realizo uma transação', () => {
-  test('Que é um depósito, o saldo deve aumentar', () => {
+  it('Que é um depósito, o saldo deve aumentar', () => {
     const transacao = {
       transacao: 'Depósito',
       valor: 50,
