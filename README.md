@@ -2,7 +2,7 @@
 
 # ByteBank - React Testing with Jest
 
-![Project Screenshot](bytebank-jest-screenshot-0.png)
+![Project Screenshot](/src/bytebank-jest-screenshot-0.png)
 
 A project focused on unit and integration testing for the ByteBank React application, using **Jest** and **React Testing Library** to ensure component and function reliability.
 
@@ -72,7 +72,7 @@ This project is under the ISC license. See the [LICENSE](LICENSE) file for more 
 
 # ByteBank - Testes em React com Jest
 
-![Screenshot do Projeto](bytebank-jest-screenshot-0.png)
+![Screenshot do Projeto](/src/bytebank-jest-screenshot-0.png)
 
 Um projeto focado em testes unitários e de integração para a aplicação React ByteBank, utilizando **Jest** e **React Testing Library** para garantir a confiabilidade de componentes e funções.
 
