@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+<p align="right"><a href="#-descrição">Leia em Português</a></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ByteBank - React Testing with Jest
 
-## Available Scripts
+![Project Screenshot](bytebank-jest-screenshot-0.png)
 
-In the project directory, you can run:
+A project focused on unit and integration testing for the ByteBank React application, using **Jest** and **React Testing Library** to ensure component and function reliability.
 
-### `npm start`
+## 📝 Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This repository contains a comprehensive test suite for the ByteBank application, a conceptual digital bank interface built with React. The primary goal is to demonstrate best practices in testing React components and JavaScript utility functions. It covers various testing scenarios, from simple unit tests for pure functions that handle core application logic, such as balance calculations, to more complex tests for component rendering, state changes, and user interactions, utilizing the powerful combination of Jest and React Testing Library.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Key Features
 
-### `npm test`
+- **Unit Tests for Business Logic**: Tests for pure functions that handle core application logic, such as balance calculations.
+- **Component Rendering Tests**: Ensures that all UI components render correctly with different props.
+- **Interaction and State Tests**: Simulates user interactions and verifies that components update their state and appearance accordingly.
+- **Mocking Functions**: Uses Jest's mocking capabilities to isolate components and functions during testing.
+- **Coverage with Jest**: The structure is ready to generate test coverage reports, ensuring a high quality standard for the codebase.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Testing-Library](https://img.shields.io/badge/testing%20library-E33332?style=for-the-badge&logo=testing-library&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow the steps below to run the tests locally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**1. Clone the repository:**
 
-### `npm run eject`
+```bash
+git clone https://github.com/Buenohy/bytebank-jest.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**2. Navigate to the project directory:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd bytebank-jest
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**3. Install the dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+**4. Run the tests:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will start the Jest test runner in watch mode.
 
-### Code Splitting
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Developed by Gabriel Bueno Hygino.
 
-### Analyzing the Bundle Size
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-bueno-hygino/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Buenohy)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ⚖️ License
 
-### Making a Progressive Web App
+This project is under the ISC license. See the [LICENSE](LICENSE) file for more details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+<p align="right"><a href="#-description">Read in English</a></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# ByteBank - Testes em React com Jest
 
-### Deployment
+![Screenshot do Projeto](bytebank-jest-screenshot-0.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Um projeto focado em testes unitários e de integração para a aplicação React ByteBank, utilizando **Jest** e **React Testing Library** para garantir a confiabilidade de componentes e funções.
 
-### `npm run build` fails to minify
+## 📝 Descrição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este repositório contém uma suíte de testes completa para a aplicação ByteBank, uma interface conceitual de banco digital construída com React. O objetivo principal é demonstrar boas práticas em testes de componentes React e funções utilitárias em JavaScript. O projeto cobre diversos cenários de teste, desde testes unitários simples para funções puras que lidam com a lógica central da aplicação, como cálculos de saldo, até testes mais complexos de renderização de componentes, mudanças de estado e interações do usuário, utilizando a poderosa combinação do Jest com a React Testing Library.
+
+## ✨ Principais Funcionalidades
+
+- **Testes Unitários para Lógica de Negócio**: Testes para funções puras que lidam com a lógica central da aplicação, como cálculos de saldo.
+- **Testes de Renderização de Componentes**: Garante que todos os componentes da UI sejam renderizados corretamente com diferentes props.
+- **Testes de Interação e Estado**: Simula interações do usuário e verifica se os componentes atualizam seu estado e aparência de forma adequada.
+- **Mocking de Funções**: Utiliza as capacidades de mock do Jest para isolar componentes e funções durante os testes.
+- **Cobertura com Jest**: A estrutura está pronta para gerar relatórios de cobertura de testes, garantindo um alto padrão de qualidade para o código.
+
+## 🛠️ Tecnologias Utilizadas
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Testing-Library](https://img.shields.io/badge/testing%20library-E33332?style=for-the-badge&logo=testing-library&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+## 🚀 Como Executar
+
+Siga os passos abaixo para executar os testes localmente.
+
+**1. Clone o repositório:**
+
+```bash
+git clone https://github.com/Buenohy/bytebank-jest.git
+```
+
+**2. Navegue até o diretório do projeto:**
+
+```bash
+cd bytebank-jest
+```
+
+**3. Instale as dependências:**
+
+```bash
+npm install
+```
+
+**4. Execute os testes:**
+
+```bash
+npm test
+```
+
+Isso iniciará o executor de testes do Jest em modo de observação (watch mode).
+
+## 👨‍💻 Autor
+
+Desenvolvido por Gabriel Bueno Hygino.
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-bueno-hygino/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Buenohy)
+
+## ⚖️ Licença
+
+Este projeto está sob a licença ISC. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
